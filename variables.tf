@@ -28,7 +28,7 @@ variable "remote_backend" {
   })
 
   default = {
-    s3_bucket_name               = "workshop-devops-bucket-235494818930-us-east-1-an"
+    s3_bucket_name               = "workshop-devops-bucket-235494818930-us-east-1"
     dynamodb_table_name          = "workshop-march-state-locking-table"
     dynamodb_table_billing_mode  = "PAY_PER_REQUEST"
     dynamodb_table_hash_key      = "LockID"
